@@ -4,11 +4,11 @@ Python programming exercises
 
 ## Aims
 
-Learn how to ...
+Learn how to add database capabilities to Python programs.
 
-Mocking...
+Use *mocks* to simplify unit testing.
 
-Storing binary data (blobs)
+Store and retrieve binary data (blobs).
 
 ## Getting started
 
@@ -57,4 +57,19 @@ If your only requirement from your database is persistence, then it might be tha
  
  When using data files pick a well known file format, for example text files formatted as JSON, XML, or YAML are often used to save program configuration. CSV files are typically used to exchange tabular data between applications.
 
- For the exchange of *media*, such as drawings, photos, videos and audio, it is usual to use one of the widely used portable file formats, i.e. a format that is usable by a variety of software applications.  Examples are SVG, PNG, JPEG, MPEG and MP4. For a much longer list, and links to useful resources see <https://developer.mozilla.org/en-US/docs/Web/Media/Formats> Note that most of these formats are binary and apply data compression algorithms, so to read a write them appropriate software libraries are required.
+ For the exchange of *media*, such as drawings, photos, videos and audio, it is usual to use one of the widely used portable file formats, i.e. a format that is usable by a variety of software applications.  Examples are SVG, PNG, JPEG, MPEG and MP4. For a much longer list, and links to useful resources see <https://developer.mozilla.org/en-US/docs/Web/Media/Formats> Note that most of these formats are binary and apply data compression algorithms, so to read and write them appropriate software libraries are required.
+
+## Exercises
+
+1. Use the makedb.py program to create a database.
+
+1. Use the addblob.py program to store WAV data in your database.
+
+1. Use the randomplay.py program to play audio from the database.
+
+1. Modify randomplay.py to take two command line arguments loud/quiet music/noise so it can be used like this -
+
+```sh
+randomplay.py loud music
+```
+
