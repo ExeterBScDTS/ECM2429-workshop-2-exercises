@@ -22,6 +22,8 @@ if __name__ == '__main__':
         sys.exit("Usage: addblob.py music/loud/tune-name.wav")
 
     try:
+        # Convert DOS style path to Unix style
+        path = path.replace('\\','/')
         title = path.split('/')[-1]
         vol = path.split('/')[-2]
         cat = path.split('/')[-3]

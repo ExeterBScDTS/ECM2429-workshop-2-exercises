@@ -16,7 +16,7 @@ if __name__ == '__main__':
         cur = con.cursor()
 
         name,blob = random_clip(cur)
-        print("about to play:{name}")
+        print(f"about to play:{name}")
 
         play(blob)
 

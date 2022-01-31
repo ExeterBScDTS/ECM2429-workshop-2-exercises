@@ -59,7 +59,7 @@ If your only requirement from your database is persistence, then it might be tha
 
  For the exchange of *media*, such as drawings, photos, videos and audio, it is usual to use one of the widely used portable file formats, i.e. a format that is usable by a variety of software applications.  Examples are SVG, PNG, JPEG, MPEG and MP4. For a much longer list, and links to useful resources see <https://developer.mozilla.org/en-US/docs/Web/Media/Formats> Note that most of these formats are binary and apply data compression algorithms, so to read and write them appropriate software libraries are required.
 
-## Exercises
+## SQLite exercises
 
 1. Use the makedb.py program to create a database.
 
@@ -73,3 +73,10 @@ If your only requirement from your database is persistence, then it might be tha
 randomplay.py loud music
 ```
 
+## Testing exercises
+
+1. Try running the provided tests ```test_addblob.py``` and ```test_randomplay.py``` using pytest.
+
+1. Refactor and write a similar test for ```makedb.py```
+
+1. Can you write a test for ```play.py```?
