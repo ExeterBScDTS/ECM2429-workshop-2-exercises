@@ -45,7 +45,7 @@ What is the role of a Cursor object?
 ## Why use a database?
 
 Databases provide many useful features, they allow us to organise data, query it, and also ensure its integrity; however as programmers the most useful
-feature is often the simplest - databases provide *persistent storage* in any easy to use manner.
+feature is often the simplest - databases provide *persistent storage* in an easy to use manner.
 
 ## Alternatives for persistent storage and data exchange in Python
 
