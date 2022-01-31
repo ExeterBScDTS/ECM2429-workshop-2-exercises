@@ -1,4 +1,4 @@
-# A prototype binary file archive
+# Examine and describe the clips table.
 # 
 import sqlite3
 import logging
